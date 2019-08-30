@@ -41,7 +41,7 @@ def ProcessShootFolder(PathtoShootFolder):
 	ProcessedFiles = []
 	IgnoredFiles = []
 	
-	RawImageFileSuffixExtn = (".arw", ".ARW", ".mts", ".MTS", ".mp4", ".MP4")
+	RawImageFileSuffixExtn = (".arw", ".ARW", ".mts", ".MTS", ".mp4", ".MP4", ".mpg", ".MPG")
 	ProcessedImageFileSuffixExtn = (".jpg", ".JPG", ".jpeg", ".JPEG", ".tiff", ".TIFF")
 
 	ShootFoldersWorked = ShootFoldersWorked + 1
